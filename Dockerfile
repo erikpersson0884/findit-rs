@@ -4,7 +4,6 @@ ARG CARGO_BINSTALL_VERSION=v1.17.9
 ARG DX_VERSION=0.7.3
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    binaryen \
     ca-certificates \
     curl \
     libsqlite3-dev \
